@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "categories": [
+    {
+      "name": "Insulation",
+      "materials": [
+        {
+          "id": "fiberglass-batt",
+          "name": "Fiberglass batt",
+          "k_w_mk": 0.04,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for product-specific data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Actual conductivity depends on density, temperature, and product."
+        },
+        {
+          "id": "mineral-wool",
+          "name": "Mineral wool",
+          "k_w_mk": 0.04,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for product-specific data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Actual conductivity depends on density, temperature, and product."
+        },
+        {
+          "id": "cellulose",
+          "name": "Cellulose insulation",
+          "k_w_mk": 0.04,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for product-specific data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Installed density and moisture affect conductivity."
+        },
+        {
+          "id": "expanded-polystyrene",
+          "name": "Expanded polystyrene (EPS)",
+          "k_w_mk": 0.036,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for product-specific data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Use manufacturer data for a particular foam grade."
+        },
+        {
+          "id": "extruded-polystyrene",
+          "name": "Extruded polystyrene (XPS)",
+          "k_w_mk": 0.029,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for product-specific data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Use manufacturer data; reported values can vary with age and temperature."
+        },
+        {
+          "id": "polyisocyanurate",
+          "name": "Polyisocyanurate board",
+          "k_w_mk": 0.026,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for product-specific data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Temperature-dependent; use the product's aged design value."
+        }
+      ]
+    },
+    {
+      "name": "Woods and boards",
+      "materials": [
+        {
+          "id": "softwood",
+          "name": "Softwood",
+          "k_w_mk": 0.12,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for species and moisture data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Species, grain direction, moisture, and density change conductivity."
+        },
+        {
+          "id": "plywood",
+          "name": "Plywood",
+          "k_w_mk": 0.13,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for product-specific data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Representative value; verify the panel's composition and moisture."
+        },
+        {
+          "id": "gypsum-board",
+          "name": "Gypsum board",
+          "k_w_mk": 0.17,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for product-specific data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Paper facings and board density are not modeled separately."
+        }
+      ]
+    },
+    {
+      "name": "Masonry and glass",
+      "materials": [
+        {
+          "id": "normal-weight-concrete",
+          "name": "Normal-weight concrete",
+          "k_w_mk": 1.4,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for density and moisture data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Density, aggregate, and moisture cause substantial variation."
+        },
+        {
+          "id": "brick",
+          "name": "Common brick",
+          "k_w_mk": 0.72,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for brick type and moisture data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Brick type and moisture cause substantial variation."
+        },
+        {
+          "id": "glass",
+          "name": "Glass",
+          "k_w_mk": 0.96,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for product-specific data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Conduction through the pane only; glazing cavities are not modeled."
+        }
+      ]
+    },
+    {
+      "name": "Metals",
+      "materials": [
+        {
+          "id": "aluminum",
+          "name": "Aluminum",
+          "k_w_mk": 205.0,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for alloy and temperature data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Alloy and temperature affect conductivity."
+        },
+        {
+          "id": "copper",
+          "name": "Copper",
+          "k_w_mk": 385.0,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for grade and temperature data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Grade and temperature affect conductivity."
+        },
+        {
+          "id": "steel",
+          "name": "Carbon steel",
+          "k_w_mk": 45.0,
+          "source": "Representative nominal value; consult ASHRAE Handbook—Fundamentals, Chapter 26 for alloy and temperature data.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Alloy and temperature affect conductivity."
+        }
+      ]
+    },
+    {
+      "name": "Air",
+      "materials": [
+        {
+          "id": "still-air",
+          "name": "Still air (conduction only)",
+          "k_w_mk": 0.026,
+          "source": "Representative value near 20 °C; consult ASHRAE Handbook—Fundamentals, Chapter 26 for air properties.",
+          "source_url": "https://www.ashrae.org/technical-resources/ashrae-handbook",
+          "notes": "Cavity convection and radiation are excluded; do not treat this as a complete air-space R-value."
+        }
+      ]
+    },
+    {
+      "name": "Custom",
+      "materials": [
+        {
+          "id": "plaster",
+          "name": "Plaster",
+          "k_w_mk": 0.22,
+          "source": "User-created material",
+          "source_url": "",
+          "notes": ""
+        },
+        {
+          "id": "brick-2",
+          "name": "Brick",
+          "k_w_mk": 0.72,
+          "source": "User-created material",
+          "source_url": "",
+          "notes": ""
+        },
+        {
+          "id": "through-stud",
+          "name": "Through Stud",
+          "k_w_mk": 1.48,
+          "source": "User-created material",
+          "source_url": "",
+          "notes": ""
+        },
+        {
+          "id": "through-insulation",
+          "name": "Through Insulation",
+          "k_w_mk": 4.2,
+          "source": "User-created material",
+          "source_url": "",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}
