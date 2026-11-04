@@ -93,3 +93,24 @@ without changing saved values.
 - [Celsia: Fundamentals of Thermal Resistance](https://celsiainc.com/heat-sink-blog/fundamentals-of-thermal-resistance/) — conduction resistance and series/parallel thermal-network context.
 - [ASHRAE Handbook](https://www.ashrae.org/technical-resources/ashrae-handbook) — primary reference for thermal material property data (Fundamentals, Chapter 26).
 - [Engineering ToolBox: Thermal Conductivity of Common Materials](https://www.engineeringtoolbox.com/thermal-conductivity-d_429.html) — public cross-reference for representative conductivities.
+
+## Wall Resistance Calculator
+![alt text](image.png)
+
+## Add Layer
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+## Add New Layers
+![alt text](image-4.png)
+
+## Adding Materials in Parallel
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+## Materials List
+![alt text](image-7.png)
